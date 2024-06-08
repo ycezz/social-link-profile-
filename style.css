@@ -33,6 +33,7 @@ main {
 }
 
 .container {
+  width: 85%;
   background-color: var(--darkgrey);
   width: 350px;
   border-radius: 20px;
@@ -99,12 +100,22 @@ ul li button:hover {
   color: var(--darkgrey);
 }
 
-.attribution {
-  font-size: 15px;
-  color: (var(--white));
-  text-align: center;
+footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  position: fixed;
+  bottom: 0;
 }
 
-.attribution a {
+footer a {
+  text-decoration: none;
+  font-weight: 600;
   color: var(--green);
+}
+
+footer a:hover {
+  text-decoration: underline;
 }
