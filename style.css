@@ -17,6 +17,12 @@
   box-sizing: border-box;
 }
 
+body {
+  font-family: "Inter", sans-serif;
+  color: var(--white);
+  background-color: var(--offblack);
+}
+
 main {
   width: 100%;
   display: flex;
@@ -24,12 +30,6 @@ main {
   align-items: center;
   justify-content: center;
   min-height: 100vh;
-}
-
-body {
-  font-family: "Inter", sans-serif;
-  color: var(--white);
-  background-color: var(--offblack);
 }
 
 .container {
@@ -41,6 +41,70 @@ body {
 }
 
 img {
-  width: 5rem;
+  width: 4rem;
   border-radius: 50%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 20px;
+}
+
+h1 {
+  font-size: 24px;
+  font-weight: 600;
+  text-align: center;
+  margin-bottom: 10px;
+  margin-bottom: 10px;
+}
+
+.address {
+  font-size: 13px;
+  font-weight: 600;
+  text-align: center;
+  color: var(--green);
+  margin-bottom: 1.5rem;
+}
+
+.bio {
+  font-size: 13px;
+  font-weight: 400;
+  text-align: center;
+  color: var(--white);
+  margin-bottom: 1.5rem;
+}
+
+ul {
+  list-style: none;
+}
+
+ul li button {
+  background-color: var(--grey);
+  border: none;
+  color: white;
+  width: 100%;
+  padding: 1rem;
+  border-radius: 8px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 13px;
+  font-weight: 600;
+  margin-bottom: 1rem;
+  transition: 0.5s;
+  cursor: pointer;
+}
+
+ul li button:hover {
+  background-color: var(--green);
+  color: var(--darkgrey);
+}
+
+.attribution {
+  font-size: 15px;
+  color: (var(--white));
+  text-align: center;
+}
+
+.attribution a {
+  color: var(--green);
 }
