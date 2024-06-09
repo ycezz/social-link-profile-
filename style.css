@@ -119,3 +119,16 @@ footer a {
 footer a:hover {
   text-decoration: underline;
 }
+
+@media (max-width: 375px) {
+  .container {
+    padding-block: 15px 15px;
+    width: 350px;
+    margin: 0 1em;
+  }
+  ul li button {
+    width: 280px;
+    flex-shrink: 1;
+    min-width: fit-content;
+  }
+}
